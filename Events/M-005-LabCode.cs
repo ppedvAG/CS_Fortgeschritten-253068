@@ -1,7 +1,7 @@
 /// <summary>
 /// Diese Methode kann für das dritte Event bearbeitet werden
 /// </summary>
-public bool CheckPrime(int num)
+bool CheckPrime(int num)
 {
 	//Prüfe, ob die Zahl (num) gerade ist
 	if (num % 2 == 0)
