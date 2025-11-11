@@ -71,6 +71,8 @@ internal class ActionFunc
 
 		string text = "Hallo Welt";
 		text.All(char.IsLetter); //char.IsLetter passt hier genau hinein
+
+		ints.Aggregate(1, (akk, i) => akk *= i);
 	}
 
 	#region Action
