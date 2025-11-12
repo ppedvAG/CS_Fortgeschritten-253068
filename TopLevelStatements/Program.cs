@@ -1,24 +1,17 @@
-﻿Console.WriteLine(args);
+﻿using System.Text;
+using System.Text.Json;
 
-IEnumerable<int> zahlen = Generiere();
-//foreach (int i in zahlen)
-//{
-//	Console.WriteLine(i);
-//	if (i > 2_000_000_000)
-//		break;
-//}
+Console.WriteLine(args);
 
-IEnumerator<int> enumerator = zahlen.GetEnumerator();
-enumerator.MoveNext();
-start:
-Console.WriteLine(enumerator.Current);
-if (enumerator.MoveNext())
-	goto start;
-enumerator.Reset();
-
-
-IEnumerable<int> Generiere()
+Type je = typeof(JsonElement);
+IEnumerable<string> select = je.GetMethods().Where(e => !e.Name.Contains("Try")).Select(e => $"{e.ReturnType.Name} => element.{e.Name}()");
+StringBuilder sb = new("return element switch\n{\n");
+foreach (string selectItem in select)
 {
-	while (true)
-		yield return Random.Shared.Next();
+	sb.Append('\t');
+	sb.Append(selectItem);
+	sb.Append(",\n");
 }
+sb.Append("\t_ => throw new Exception(\"Unbekannter Typ\")\n};");
+string switchPattern = sb.ToString();
+Console.WriteLine(switchPattern);

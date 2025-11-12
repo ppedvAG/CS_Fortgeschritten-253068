@@ -21,6 +21,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{1359127A-1EB0-48CF-8365-E4694EFD1146}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqErweiterungsmethoden", "LinqErweiterungsmethoden\LinqErweiterungsmethoden.csproj", "{37AE1BD5-B77A-4241-8D7A-E4644C85B3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{23BCD469-073B-44A4-B757-169FABA4386C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{F8606A6F-3110-EA23-4F66-13FFB3713916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginCalculator", "PluginCalculator\PluginCalculator.csproj", "{94CC03A0-F20F-0C8E-F61C-C06460B01CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginClient", "PluginClient\PluginClient.csproj", "{F2F0E286-EC35-DDF8-D755-17A5EC753546}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +73,26 @@ Global
 		{1359127A-1EB0-48CF-8365-E4694EFD1146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1359127A-1EB0-48CF-8365-E4694EFD1146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1359127A-1EB0-48CF-8365-E4694EFD1146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AE1BD5-B77A-4241-8D7A-E4644C85B3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AE1BD5-B77A-4241-8D7A-E4644C85B3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AE1BD5-B77A-4241-8D7A-E4644C85B3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AE1BD5-B77A-4241-8D7A-E4644C85B3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BCD469-073B-44A4-B757-169FABA4386C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BCD469-073B-44A4-B757-169FABA4386C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BCD469-073B-44A4-B757-169FABA4386C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BCD469-073B-44A4-B757-169FABA4386C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8606A6F-3110-EA23-4F66-13FFB3713916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8606A6F-3110-EA23-4F66-13FFB3713916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8606A6F-3110-EA23-4F66-13FFB3713916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8606A6F-3110-EA23-4F66-13FFB3713916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94CC03A0-F20F-0C8E-F61C-C06460B01CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CC03A0-F20F-0C8E-F61C-C06460B01CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CC03A0-F20F-0C8E-F61C-C06460B01CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CC03A0-F20F-0C8E-F61C-C06460B01CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F0E286-EC35-DDF8-D755-17A5EC753546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F0E286-EC35-DDF8-D755-17A5EC753546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F0E286-EC35-DDF8-D755-17A5EC753546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F0E286-EC35-DDF8-D755-17A5EC753546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
